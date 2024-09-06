@@ -1,0 +1,104 @@
+# section information
+[section]
+name = "Experience"
+id = "experiences"
+enable = true
+weight = 3
+showOnNavbar = true
+template = "sections/experiences.html"
+# Can optionally hide the title in sections
+# hideTitle = true
+
+# Your experiences
+[[experiences]]
+[experiences.company]
+name = "株式会社yamaneco"
+url = "https://www.yamaneco.co.jp/"
+location = "渋谷"
+# company overview
+overview = "We help build happy teams"
+
+[[experiences.positions]]
+designation = "Software Engineer"
+start = "Aug 2024"
+# don't provide end date if you are currently working there. It will be replaced by "Present"
+# end = "Dec 2020"
+# give some points about what was your responsibilities at the company.
+# responsibilities = [
+# ]
+
+[[experiences]]
+[experiences.company]
+name = "Brewus,Inc."
+url = "https://brewus.co.jp/"
+location = "渋谷"
+overview = "スマートフォン向けアプリケーション開発会社。"
+
+[[experiences.positions]]
+designation = "iOSネイティブアプリエンジニア"
+start = "2014"
+end = "2024"
+responsibilities = [
+    "C/C++・Objective-Cアプリの保守・Swiftへの移行作業",
+    "カメラ静止画撮影・動画撮影・動画配信処理の実装・API連携処理の開発",
+    "ツール系アプリの設計・開発・アニメーション実装と保守",
+    "短期間での営業用デモアプリの作成",
+    "webゲームアプリの保守",
+    "【Swift】【UIKit】【CoreML】",
+]
+
+# [[experiences.positions]]
+#designation = "動画配信/ストリーミングアプリの改修・保守"
+#start = "2020"
+#end = "2024"
+#responsibilities = [
+#    "Objective-CからSwiftへの移行作業",
+#    "C言語ライブラリのObjective-C++への組み込みとSwiftからの呼び出し連携",
+#]
+
+[[experiences]]
+[experiences.company]
+name = "株式会社高電社"
+url = "https://www.kodensha.jp/index/"
+location = "大阪市"
+overview = ""
+
+[[experiences.positions]]
+designation = "iOSアプリエンジニア"
+start = "2013"
+end = "2013"
+responsibilities = ["中国語のイントネーション表示アプリ制作"]
+
+
+[[experiences]]
+[experiences.company]
+name = "NHN JAPAN株式会社"
+url = "https://www.nhn-japan.com/"
+location = "渋谷"
+overview = ""
+
+[[experiences.positions]]
+designation = "iOSアプリエンジニア"
+start = "2012"
+end = "2012"
+responsibilities = ["Cocos2d-xでのゲームアニメーション実装"]
+
+[[experiences.positions]]
+designation = "サーバーサイドエンジニア"
+start = "2012"
+end = "2012"
+responsibilities = ["MySQLデータベース設計", "webゲーム向けAPI実装"]
+
+
+[[experiences]]
+[experiences.company]
+name = "株式会社ミオシステム"
+url = "https://miosys.co.jp/"
+location = "京都府"
+overview = ""
+
+[[experiences.positions]]
+designation = "iOSアプリエンジニア"
+start = "2011"
+end = "2011"
+responsibilities = ["AR認識エンジンARToolKitのiOSへの搭載実装", "AR表示アプリの開発"]

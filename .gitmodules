@@ -1,3 +1,6 @@
 [submodule "themes/toha"]
 	path = themes/toha
 	url = git@github.com:l4l4dev/toha.git
+[submodule "themes/hugo-developer-portfolio"]
+	path = themes/hugo-developer-portfolio
+	url = https://github.com/samrobbins85/hugo-developer-portfolio
