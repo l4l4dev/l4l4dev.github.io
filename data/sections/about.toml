@@ -71,7 +71,7 @@ color = "orange"
 [[badges]]
 type = "soft-skill-indicator"
 name = "Scrum"
-percentage = 40
+percentage = 60
 color = "#137B92"
 
 [[badges]]
