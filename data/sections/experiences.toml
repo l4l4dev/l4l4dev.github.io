@@ -24,8 +24,7 @@ start = "Aug 2024"
 # don't provide end date if you are currently working there. It will be replaced by "Present"
 # end = "Dec 2020"
 # give some points about what was your responsibilities at the company.
-# responsibilities = [
-# ]
+responsibilities = ["アジャイル"]
 
 [[experiences]]
 [experiences.company]
@@ -82,14 +81,20 @@ overview = ""
 designation = "iOSアプリエンジニア"
 start = "2012"
 end = "2012"
-responsibilities = ["Cocos2d-xでのゲームアニメーション実装"]
+responsibilities = [
+    "cocos2dxを利用したiOSカードゲームアプリの開発に参加",
+    "既存プロジェクトの最終段階でアニメーション実装を担当",
+]
 
 [[experiences.positions]]
 designation = "ジュニアサーバーサイドエンジニア"
 start = "2012"
 end = "2012"
-responsibilities = ["MySQLデータベース設計", "webゲーム向けAPI実装"]
-
+responsibilities = [
+    "先輩エンジニアの指導の下、サーバーサイド開発技術を段階的に習得",
+    "MySQLを使用したデータベースの設計およびAPIの実装を担当",
+    "プロジェクト後半ではER図の設計を任され、チームのレビューを経て完成",
+]
 
 [[experiences]]
 [experiences.company]
@@ -102,4 +107,8 @@ overview = ""
 designation = "iOSアプリエンジニア"
 start = "2011"
 end = "2011"
-responsibilities = ["AR認識エンジンARToolKitのiOSへの搭載実装", "AR表示アプリの開発"]
+responsibilities = [
+    "ARToolKit開発者の加藤博一教授（当時NAIST）と協働し、iOS（ver. 4.0頃）への移植を実施",
+    "OpenGLとOpenCVを活用し、iOSでのAR機能を実現",
+    "移植したARToolKitを用いたiOS向けARアプリケーションの開発",
+]
