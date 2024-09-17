@@ -1,25 +1,24 @@
 # section information
-[section]
-name = "About"
-id = "about"
-enable = true
-weight = 1
-showOnNavbar = true
-template = "sections/about.html"
+section = { name = "About", id = "about", enable = true, weight = 1, showOnNavbar = true, template = "sections/about.html" }
+
 
 # your designation
 designation = "Software Engineer"
 
 # your company information
-[company]
-name = "株式会社yamaneco"
-url = "https://www.yamaneco.co.jp/"
+company = { name = "株式会社yamaneco", url = "https://www.yamaneco.co.jp/" }
 
 # your resume. this file path should be relative to you "static" directory
 # resume = "files/resume.pdf"
 
 # a summary about you
-summary = "I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc."
+summary = """
+- 新技術や未経験分野への探究心が強く、効率的な調査・学習を心がけています
+- 短期間でのデモアプリ開発を通じて、営業活動のサポートに努めています
+- デモアプリを活用し、クライアントへの視覚的な提案を心がけ、理解促進に貢献しています
+- 未知の分野に対しても積極的に取り組み、実践的な活用を目指しています
+- クライアントのニーズを丁寧に把握し、できる限り迅速な対応を心がけています
+"""
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

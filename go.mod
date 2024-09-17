@@ -1,4 +1,4 @@
-module github.com/l4l4dev/portfolio
+module github.com/l4l4dev/l4l4dev.github.io
 
 go 1.23.1
 
