@@ -84,7 +84,7 @@ end = "2012"
 responsibilities = ["Cocos2d-xでのゲームアニメーション実装"]
 
 [[experiences.positions]]
-designation = "サーバーサイドエンジニア"
+designation = "ジュニアサーバーサイドエンジニア"
 start = "2012"
 end = "2012"
 responsibilities = ["MySQLデータベース設計", "webゲーム向けAPI実装"]
