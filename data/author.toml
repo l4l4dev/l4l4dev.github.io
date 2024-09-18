@@ -1,3 +1,11 @@
+# some summary about what you do
+summary = [
+    "I am a iOS Developer",
+    "I love Programming",
+    "I love Agile",
+    "I love to work with some fun projects",
+]
+
 # some information about you
 name = "Mika"
 nickname = "Mika"
@@ -5,20 +13,14 @@ nickname = "Mika"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting = "Hi, I am"
 
+# Add a subtitle if you want
+subtitle = "Software Engineer"
+
 image = "images/author/DSC02380.jpg"
 
 # give your some contact information. they will be used in the footer
 [contactInfo]
 email = "mika.yamamoto@yamaneco.io"
 # phone = "+0123456789"
-# github = "johndoe"
-# linkedin = "johndoe"
-
-# some summary about what you do
-summary = [
-    "I am a Developer",
-    "I am a Devops",
-    "I love servers",
-    "I work on open-source projects",
-    "I love to work with some fun projects",
-]
+github = "l4l4dev"
+linkedin = "mika-mtb"
