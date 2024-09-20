@@ -47,7 +47,7 @@ background = "/images/site/DSC02380.JPG"
 # [params.topNavbar]
 # maxVisibleSections = 5
 
-# [params.features]
+[params.features]
 # [params.features.theme]
 # enable = true
 # [params.features.theme.services]
