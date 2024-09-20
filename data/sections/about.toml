@@ -27,20 +27,20 @@ name = "Email"
 icon = "fas fa-envelope"
 url = "mika.yamamoto@yamaneco.io"
 
-# [[socialLinks]]
-# name = "Github"
-# icon = "fab fa-github"
-# url = "https://www.github.com/example"
+[[socialLinks]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://www.github.com/l4l4dev"
 
 # [[socialLinks]]
 # name = "Stackoverflow"
 # icon = "fab fa-stack-overflow"
 # url = "#"
 
-# [[socialLinks]]
-# name = "LinkedIn"
-# icon = "fab fa-linkedin"
-# url = "#"
+[[socialLinks]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/mika-mtb/"
 
 [[socialLinks]]
 name = "Twitter"

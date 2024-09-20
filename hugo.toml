@@ -77,10 +77,10 @@ background = "/images/site/DSC02380.JPG"
 # [params.features.comment.services.disqus]
 # shortName = "toha-example-site"
 
-# [params.features.analytics]
-# enabled = true
-# [params.features.analytics.services.google]
-# id = "G-H4LBG7NDFZ"
+[params.features.analytics]
+enabled = true
+[params.features.analytics.services.google]
+id = "G-6KVB7QTBW8"
 
 # [params.features.support]
 # enable = false
