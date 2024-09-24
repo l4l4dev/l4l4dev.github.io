@@ -38,6 +38,9 @@ enableEmoji = true
 # home = ["HTML", "RSS", "JSON"]
 
 # enableEmoji = true
+#
+[services.googleAnalytics]
+ID = "G-6KVB7QTBW8"
 
 [params]
 # Background image of the landing page
@@ -56,9 +59,11 @@ background = "/images/site/DSC02380.JPG"
 
 [params.features]
 [params.features.analytics]
-enabled = true
+enable = true
+
 [params.features.analytics.services.google]
 id = "G-6KVB7QTBW8"
+
 
 # [params.features.theme]
 # enable = true
@@ -170,9 +175,13 @@ enable = false
 [privacy]
 [privacy.disqus]
 disable = false
+
 [privacy.googleAnalytics]
 disable = false
 respectDoNotTrack = true
+anonymizeIP = true
+useSessionStorage = true
+
 [privacy.instagram]
 disable = false
 simple = false
