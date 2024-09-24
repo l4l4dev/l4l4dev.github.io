@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = "Mika's Profile"
 theme = 'toha'
 
-
 # [languages]
 #   [languages.en]
 #     languageCode = "en"
@@ -35,7 +34,6 @@ theme = 'toha'
 # Background image of the landing page
 background = "/images/site/DSC02380.JPG"
 
-
 # [params.logo]
 # main = "/images/site/main-logo.png"
 # inverted = "/images/site/inverted-logo.png"
@@ -48,6 +46,11 @@ background = "/images/site/DSC02380.JPG"
 # maxVisibleSections = 5
 
 [params.features]
+[params.features.analytics]
+enabled = true
+[params.features.analytics.services.google]
+id = "G-6KVB7QTBW8"
+
 # [params.features.theme]
 # enable = true
 # [params.features.theme.services]
@@ -77,10 +80,6 @@ background = "/images/site/DSC02380.JPG"
 # [params.features.comment.services.disqus]
 # shortName = "toha-example-site"
 
-[params.features.analytics]
-enabled = true
-[params.features.analytics.services.google]
-id = "G-6KVB7QTBW8"
 
 # [params.features.support]
 # enable = false
@@ -152,11 +151,33 @@ customMenus = true
 [params.footer.contactMe]
 enable = true
 [params.footer.credentials]
-enable = true
+enable = false
 [params.footer.newsletter]
 enable = false
 [params.footer.disclaimer]
-enable = true
+enable = false
+
+
+[privacy]
+[privacy.disqus]
+disable = false
+[privacy.googleAnalytics]
+disable = true
+respectDoNotTrack = true
+[privacy.instagram]
+disable = false
+simple = false
+[privacy.twitter]
+disable = false
+enableDNT = false
+simple = false
+[privacy.vimeo]
+disable = false
+enableDNT = false
+simple = false
+[privacy.youtube]
+disable = false
+privacyEnhanced = false
 
 
 # Use Hugo modules to add theme
