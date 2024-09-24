@@ -17,6 +17,15 @@ theme = 'toha'
 
 # defaultContentLanguage = "en"
 
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+enableEmoji = true
+
 # [markup]
 # [markup.goldmark.renderer]
 # unsafe = true
@@ -162,7 +171,7 @@ enable = false
 [privacy.disqus]
 disable = false
 [privacy.googleAnalytics]
-disable = true
+disable = false
 respectDoNotTrack = true
 [privacy.instagram]
 disable = false
